@@ -1,0 +1,119 @@
+.cabecera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 32px 0px;
+  position: static;
+  width: 1136px;
+  height: 115px;
+  top: 0px;
+}
+.logo {
+  position: static;
+  width: 176px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+}
+.btnLogin {
+  position: static;
+  left: 70px;
+  top: 16px;
+  padding: 10px 60px;
+  font-weight: 400;
+  font-size: 16px;
+  border: hsla(214, 77%, 53%, 1) 2px solid;
+  color: hsla(214, 77%, 53%, 1);
+  background-color: white;
+}
+.cabecera div {
+  display: flex;
+  align-items: flex-start;
+}
+.cabecera div input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 20px;
+  padding: 8px 16px;
+  position: static;
+  width: 393px;
+  height: 40px;
+  left: calc(50% - 393px / 2 + 104px);
+  top: 5px;
+  background: #f5f5f5;
+  border-radius: 20px;
+  border: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.cabecera div ion-icon {
+  height: 40px;
+  position: relative;
+  right: 25px;
+}
+.imgCabecera {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 32px;
+  color: white;
+  position: static;
+  width: 1440px;
+  height: 352px;
+  left: 0px;
+  top: 115px;
+
+  background: url(../img/Hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.imgCabecera h2 {
+  position: static;
+  width: 751px;
+  height: 61px;
+  left: 0px;
+  top: 0px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+}
+.imgCabecera h3 {
+  position: static;
+  width: 751px;
+  height: 26px;
+  left: 0px;
+  top: 77px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+.btnPromocion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  position: static;
+  width: 130px;
+  height: 40px;
+  left: 0px;
+  top: 119px;
+  background: #2a7ae4;
+  flex: none;
+  flex-grow: 0;
+  margin: 16px 0px;
+  border: none;
+  color: white;
+}
