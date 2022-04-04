@@ -1,0 +1,116 @@
+footer {
+  flex-direction: column;
+}
+.footerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 64px;
+
+  background-color: #eaf2fd;
+  position: static;
+  width: 1440px;
+  height: 368px;
+  left: 0px;
+  top: 0px;
+}
+.footerNav li {
+  position: static;
+  width: 176px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+  color: #464646;
+}
+
+.footerNav form {
+  display: flex;
+  flex-direction: column;
+}
+.footerNav form h6 {
+  position: static;
+  width: 560px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.footerNav form input {
+  position: static;
+  width: 560px;
+  height: 56px;
+  left: calc(50% - 560px / 2);
+  top: 0px;
+  background: #ffffff;
+  border-radius: 4px;
+  flex: none;
+  border-color: #c8c8c8;
+}
+.footerNav form textarea {
+  position: static;
+  width: 560px;
+  height: 82px;
+  left: calc(50% - 560px / 2);
+  top: 0px;
+  background: #ffffff;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 8px 0px;
+  border-color: #c8c8c8;
+  resize: none;
+}
+
+.footerNav form button {
+  /* Botao */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+
+  position: static;
+  width: 144px;
+  height: 51px;
+  left: 0px;
+  top: 189px;
+  background: #2a7ae4;
+  color: #ffffff;
+  border: none;
+}
+.copyR {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 19px auto;
+}
