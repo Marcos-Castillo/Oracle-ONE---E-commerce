@@ -35,6 +35,9 @@ footer {
   margin: 24px 0px;
   color: #464646;
 }
+.footerNav li a{
+  color: #464646;
+}
 
 .footerNav form {
   display: flex;
