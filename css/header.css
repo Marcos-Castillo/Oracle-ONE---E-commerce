@@ -1,8 +1,8 @@
 .cabecera {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-around;
+  
 
   padding: 32px 0px;
   position: static;
@@ -16,6 +16,7 @@
   height: 50px;
   left: 0px;
   top: 0px;
+
 }
 .btnLogin {
   position: static;
