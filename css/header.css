@@ -29,7 +29,8 @@
   font-size: 16px;
   border: hsla(214, 77%, 53%, 1) 2px solid;
   color: hsla(214, 77%, 53%, 1);
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 10px;
 }
 .cabecera div {
   display: flex;

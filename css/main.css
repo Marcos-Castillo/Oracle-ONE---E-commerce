@@ -15,7 +15,7 @@ main {
   justify-content: space-between;
   margin: 20px 0;
 }
-.cardNav a {
+.cardNavLink {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 16px;
@@ -74,7 +74,8 @@ main {
   margin-bottom: 15px;
 }
 /* Login */
-.mainLogin {
+.mainLogin,
+.mainProducto, .mainAgregarProducto {
   background-color: #f5f5f5;
   width: 1440px;
 }
@@ -104,7 +105,7 @@ main {
   border: none;
   margin: 15px;
 }
-.formLogin button {
+.formLogin button,  {
   width: 423px;
   height: 63.13px;
   background: #2a7ae4;
@@ -115,4 +116,67 @@ main {
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
+}
+/* Producto */
+
+.cardProducto {
+  display: flex;
+  margin: 64px;
+  gap: 15px;
+}
+.imgProducto {
+  width: 560px;
+  height: 403px;
+  background: url(../img/card/cardStarWars/01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.descProducto {
+  width: 50%;
+}
+
+/* Producto */
+.cardNav .btnBlu {
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 400;
+}
+.mainProductos {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+/* Agregar Producto */
+.formAgregarProducto{
+  display: grid;
+  margin:100px;
+  
+}
+.btnAncho{
+  
+  height: 63.13px;
+  background: #2a7ae4;
+  color: #ffffff;
+  border: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* width: 83%; */
+}
+.contenedorDrag{
+  display: flex;
+  align-items: center;
+}
+.imgDragDrop{
+  width: 301px;
+  height: 152px;
+  background-image: url(../img/dragAndDrop.jpg);
+  background-size: contain;
+  margin: 10px;
+}
+.formAgregarProducto .btnLogin{
+  padding: 20px 5px;
 }

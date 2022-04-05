@@ -56,7 +56,7 @@ footer {
   line-height: 19px;
 }
 
-.footerNav form input {
+.footerNav form input,.formInput {
   position: static;
   width: 560px;
   height: 56px;
@@ -67,7 +67,7 @@ footer {
   flex: none;
   border-color: #c8c8c8;
   }
-.footerNav form label {
+.footerNav form label, .formLabel{
   position: relative;
   top: 1.2rem;
   left: 1rem;
@@ -78,7 +78,7 @@ footer {
   font-size: 12px;
   line-height: 16px;
 }
-.footerNav form textarea {
+.footerNav form textarea, .formTextArea {
   position: static;
   width: 560px;
   height: 82px;
@@ -95,7 +95,7 @@ footer {
   resize: none;
 }
 
-.footerNav form button {
+.btnBlu{
   /* Botao */
 
   /* Auto layout */
